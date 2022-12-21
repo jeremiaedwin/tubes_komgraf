@@ -13,9 +13,6 @@ script = ExtResource( 1 )
 transform = Transform( 1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 1.22061, 0 )
 shape = SubResource( 1 )
 
-[node name="DirectionalLight" type="DirectionalLight" parent="CollisionShape"]
-transform = Transform( 10, 0, 0, 0, -4.37114e-07, 10, 0, -10, -4.37114e-07, 0, 5.33545e-08, 1.22061 )
-
 [node name="CameraPivot" type="Spatial" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.461698, 0 )
 
@@ -23,3 +20,5 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.461698, 0 )
 transform = Transform( 3.33329, 0.00878546, 0.014851, -0.0086647, 3.33321, -0.0270577, -0.0149218, 0.0270187, 3.33319, 0, 1.9581, 0 )
 current = true
 fov = 50.625
+
+[node name="SpotLight" type="SpotLight" parent="CameraPivot"]

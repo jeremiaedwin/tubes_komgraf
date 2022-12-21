@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/gayung.obj-414e307c0c617a990809cb592a1d58dc.mesh"
+
+[deps]
+
+files=[ "res://.import/gayung.obj-414e307c0c617a990809cb592a1d58dc.mesh" ]
+
+source_file="res://assets/objek3d/kamarmandi/gayung.obj"
+dest_files=[ "res://.import/gayung.obj-414e307c0c617a990809cb592a1d58dc.mesh", "res://.import/gayung.obj-414e307c0c617a990809cb592a1d58dc.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

@@ -1,4 +1,4 @@
-[gd_scene load_steps=113 format=2]
+[gd_scene load_steps=181 format=2]
 
 [ext_resource path="res://src/scene/Player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://assets/objek3d/wall/wall14.obj" type="ArrayMesh" id=2]
@@ -47,114 +47,239 @@
 [ext_resource path="res://assets/objek3d/floor/floor.obj" type="ArrayMesh" id=45]
 [ext_resource path="res://assets/objek3d/wall/wall1_3.obj" type="ArrayMesh" id=46]
 [ext_resource path="res://assets/objek3d/wall/wall1_2.obj" type="ArrayMesh" id=47]
+[ext_resource path="res://assets/texture/TexturesCom_FloorsMarble0023_S.jpg" type="Texture" id=48]
+[ext_resource path="res://assets/texture/TexturesCom_ConcreteBare0440_3_seamless_S.png" type="Texture" id=49]
+[ext_resource path="res://assets/texture/fine_grained_wood_col_1k.jpg" type="Texture" id=50]
+[ext_resource path="res://assets/environment/satara_night_no_lamps_1k.exr" type="Texture" id=51]
+[ext_resource path="res://assets/objek3d/kamarmandi/ember.obj" type="ArrayMesh" id=52]
+[ext_resource path="res://assets/objek3d/kamarmandi/bakmandi.obj" type="ArrayMesh" id=53]
+[ext_resource path="res://assets/objek3d/kamarmandi/gayung.obj" type="ArrayMesh" id=54]
+[ext_resource path="res://assets/objek3d/kamarmandi/toilet.obj" type="ArrayMesh" id=55]
+[ext_resource path="res://assets/objek3d/kamarmandi/sabun.obj" type="ArrayMesh" id=56]
+[ext_resource path="res://assets/objek3d/kamarmandi/keran.obj" type="ArrayMesh" id=57]
+[ext_resource path="res://assets/texture/TexturesCom_BareConcreteWallTexture_512_seamless.png" type="Texture" id=58]
+
+[sub_resource type="SpatialMaterial" id=76]
+albedo_texture = ExtResource( 49 )
 
 [sub_resource type="ConvexPolygonShape" id=73]
 points = PoolVector3Array( -0.928186, 0, 5.078, -0.878235, 0, 5.028, -0.128255, 0, 5.078, -0.928186, 1, 5.078, -0.118186, 0, 5.028, -0.878235, 1, 5.028, -0.128255, 1, 5.078, -0.118186, 1, 5.028 )
 
+[sub_resource type="SpatialMaterial" id=77]
+albedo_texture = ExtResource( 49 )
+
 [sub_resource type="ConvexPolygonShape" id=74]
 points = PoolVector3Array( 0.261814, 0, 5.028, 1.02178, 0, 5.028, 0.271804, 0, 5.078, 0.261814, 1, 5.028, 1.07181, 0, 5.078, 1.02178, 1, 5.028, 0.271804, 1, 5.078, 1.07181, 1, 5.078 )
+
+[sub_resource type="SpatialMaterial" id=78]
+albedo_texture = ExtResource( 49 )
 
 [sub_resource type="ConvexPolygonShape" id=75]
 points = PoolVector3Array( 0.271775, 1, 5.078, 0.271775, 0.666666, 5.078, 0.261791, 1, 5.028, -0.128186, 1, 5.078, -0.128186, 0.666666, 5.078, 0.261791, 0.666666, 5.028, -0.118202, 1, 5.028, -0.118202, 0.666666, 5.028 )
 
+[sub_resource type="SpatialMaterial" id=79]
+albedo_texture = ExtResource( 49 )
+
 [sub_resource type="ConvexPolygonShape" id=2]
 points = PoolVector3Array( -0.878186, 0, 1.028, -0.928186, 0, 1.07795, -0.878186, 1, 1.028, -0.878186, 0, 5.02765, -0.928186, 1, 1.07795, -0.928186, 0, 5.078, -0.878186, 1, 5.02765, -0.928186, 1, 5.078 )
+
+[sub_resource type="SpatialMaterial" id=80]
+albedo_texture = ExtResource( 49 )
 
 [sub_resource type="ConvexPolygonShape" id=3]
 points = PoolVector3Array( 1.02181, 0, 3.028, 1.02181, 1, 3.028, 1.07181, 0, 3.07796, 1.02181, 0, 5.02783, 1.02181, 1, 5.02783, 1.07181, 1, 3.07796, 1.07181, 0, 5.078, 1.07181, 1, 5.078 )
 
+[sub_resource type="SpatialMaterial" id=81]
+albedo_texture = ExtResource( 49 )
+
 [sub_resource type="ConvexPolygonShape" id=4]
 points = PoolVector3Array( 3.12161, 1, 3.078, 3.12161, 0, 3.078, 3.07166, 1, 3.028, 1.07177, 1, 3.078, 1.07177, 0, 3.078, 3.07166, 0, 3.028, 1.02181, 1, 3.028, 1.02181, 0, 3.028 )
+
+[sub_resource type="SpatialMaterial" id=82]
+albedo_texture = ExtResource( 49 )
 
 [sub_resource type="ConvexPolygonShape" id=5]
 points = PoolVector3Array( 3.07181, 0, 1.028, 3.07181, 1, 1.028, 3.12181, 0, 1.07796, 3.07181, 0, 3.02783, 3.07181, 1, 3.02783, 3.12181, 1, 1.07796, 3.12181, 0, 3.078, 3.12181, 1, 3.078 )
 
+[sub_resource type="SpatialMaterial" id=83]
+albedo_texture = ExtResource( 49 )
+
 [sub_resource type="ConvexPolygonShape" id=6]
 points = PoolVector3Array( 4.07172, 1, 1.078, 4.07172, 0, 1.078, 4.02179, 1, 1.028, 3.12173, 1, 1.078, 3.12173, 0, 1.078, 4.02179, 0, 1.028, 3.07181, 1, 1.028, 3.07181, 0, 1.028 )
+
+[sub_resource type="SpatialMaterial" id=84]
+albedo_texture = ExtResource( 49 )
 
 [sub_resource type="ConvexPolygonShape" id=7]
 points = PoolVector3Array( 4.07181, 0, -4.922, 4.02181, 0, -4.87208, 4.07181, 1, -4.922, 4.07181, 0, 1.078, 4.02181, 1, -4.87208, 4.02181, 0, 1.02749, 4.07181, 1, 1.078, 4.02181, 1, 1.02749 )
 
+[sub_resource type="SpatialMaterial" id=85]
+albedo_texture = ExtResource( 49 )
+
 [sub_resource type="ConvexPolygonShape" id=8]
 points = PoolVector3Array( 4.07181, 1, -4.922, 4.02179, 1, -4.87201, 4.07181, 0, -4.922, -2.92819, 1, -4.922, 4.02179, 0, -4.87201, -2.87885, 1, -4.87201, -2.92819, 0, -4.922, -2.87885, 0, -4.87201 )
+
+[sub_resource type="SpatialMaterial" id=86]
+albedo_texture = ExtResource( 49 )
 
 [sub_resource type="ConvexPolygonShape" id=9]
 points = PoolVector3Array( 4.07181, 1, -1.87265, 4.07181, 1, -1.92265, 2.07181, 1, -1.87265, 4.07181, 0, -1.87265, 4.07181, 0, -1.92265, 2.07181, 1, -1.92265, 2.07181, 0, -1.87265, 2.07181, 0, -1.92265 )
 
+[sub_resource type="SpatialMaterial" id=87]
+albedo_texture = ExtResource( 49 )
+
 [sub_resource type="ConvexPolygonShape" id=10]
 points = PoolVector3Array( 4.07181, 1, -2.922, 4.02166, 1, -2.872, 4.07181, 0, -2.922, 1.07167, 1, -2.922, 4.02166, 0, -2.872, 1.02181, 1, -2.872, 1.07167, 0, -2.922, 1.02181, 0, -2.872 )
+
+[sub_resource type="SpatialMaterial" id=88]
+albedo_texture = ExtResource( 49 )
 
 [sub_resource type="ConvexPolygonShape" id=29]
 points = PoolVector3Array( 2.12181, 1, -2.37964, 2.12181, 1, -2.922, 2.07181, 1, -2.37964, 2.12181, 0, -2.37964, 2.07181, 1, -2.922, 2.12181, 0, -2.922, 2.07181, 0, -2.37964, 2.07181, 0, -2.922 )
 
+[sub_resource type="SpatialMaterial" id=89]
+albedo_texture = ExtResource( 49 )
+
 [sub_resource type="ConvexPolygonShape" id=30]
 points = PoolVector3Array( 2.07181, 0.666666, -2.37964, 2.12181, 0.666666, -2.37964, 2.07181, 0.666666, -1.97968, 2.07181, 1, -2.37964, 2.12181, 1, -2.37964, 2.12181, 0.666666, -1.97968, 2.07181, 1, -1.97968, 2.12181, 1, -1.97968 )
+
+[sub_resource type="SpatialMaterial" id=90]
+albedo_texture = ExtResource( 49 )
 
 [sub_resource type="ConvexPolygonShape" id=31]
 points = PoolVector3Array( 2.12181, 1, -1.87265, 2.12181, 1, -1.97964, 2.07181, 1, -1.87265, 2.12181, 0, -1.87265, 2.07181, 1, -1.97964, 2.12181, 0, -1.97964, 2.07181, 0, -1.87265, 2.07181, 0, -1.97964 )
 
+[sub_resource type="SpatialMaterial" id=91]
+albedo_texture = ExtResource( 49 )
+
 [sub_resource type="ConvexPolygonShape" id=48]
 points = PoolVector3Array( 0.051054, 1, 1.07792, 0.051054, 1, 0.277997, 0.001054, 1, 1.07792, 0.051054, 0, 1.07792, 0.001054, 1, 0.277997, 0.051054, 0, 0.277997, 0.001054, 0, 1.07792, 0.001054, 0, 0.277997 )
+
+[sub_resource type="SpatialMaterial" id=92]
+albedo_texture = ExtResource( 49 )
 
 [sub_resource type="ConvexPolygonShape" id=49]
 points = PoolVector3Array( 0.001054, 0.666666, -0.122003, 0.051054, 0.666666, -0.122003, 0.001054, 0.666666, 0.277958, 0.001054, 1, -0.122003, 0.051054, 1, -0.122003, 0.051054, 0.666666, 0.277958, 0.001054, 1, 0.277958, 0.051054, 1, 0.277958 )
 
+[sub_resource type="SpatialMaterial" id=93]
+albedo_texture = ExtResource( 49 )
+
 [sub_resource type="ConvexPolygonShape" id=50]
 points = PoolVector3Array( 0.001054, 0, -1.722, 0.001054, 1, -1.722, 0.051054, 0, -1.722, 0.001054, 0, -0.122003, 0.051054, 1, -1.722, 0.001054, 1, -0.122003, 0.051054, 0, -0.122003, 0.051054, 1, -0.122003 )
+
+[sub_resource type="SpatialMaterial" id=94]
+albedo_texture = ExtResource( 49 )
 
 [sub_resource type="ConvexPolygonShape" id=51]
 points = PoolVector3Array( 0.001054, 0.666666, -2.122, 0.051054, 0.666666, -2.122, 0.001054, 0.666666, -1.722, 0.001054, 1, -2.122, 0.051054, 1, -2.122, 0.051054, 0.666666, -1.722, 0.001054, 1, -1.722, 0.051054, 1, -1.722 )
 
+[sub_resource type="SpatialMaterial" id=95]
+albedo_texture = ExtResource( 49 )
+
 [sub_resource type="ConvexPolygonShape" id=52]
 points = PoolVector3Array( 0.051054, 1, -2.12208, 0.051054, 1, -2.922, 0.001054, 1, -2.12208, 0.051054, 0, -2.12208, 0.001054, 1, -2.922, 0.051054, 0, -2.922, 0.001054, 0, -2.12208, 0.001054, 0, -2.922 )
+
+[sub_resource type="SpatialMaterial" id=96]
+albedo_texture = ExtResource( 49 )
 
 [sub_resource type="ConvexPolygonShape" id=13]
 points = PoolVector3Array( -2.92819, 0, -4.922, -2.92819, 1, -4.922, -2.87819, 0, -4.87208, -2.92819, 0, 1.078, -2.87819, 1, -4.87208, -2.92819, 1, 1.078, -2.87819, 0, 1.02749, -2.87819, 1, 1.02749 )
 
+[sub_resource type="SpatialMaterial" id=97]
+albedo_texture = ExtResource( 49 )
+
 [sub_resource type="ConvexPolygonShape" id=38]
 points = PoolVector3Array( 1.02182, 1, -2.872, 1.02182, 1, -2.922, -0.239587, 1, -2.872, 1.02182, 0, -2.872, 1.02182, 0, -2.922, -0.239587, 1, -2.922, -0.239587, 0, -2.872, -0.239587, 0, -2.922 )
+
+[sub_resource type="SpatialMaterial" id=98]
+albedo_texture = ExtResource( 49 )
 
 [sub_resource type="ConvexPolygonShape" id=39]
 points = PoolVector3Array( -2.3534, 1, -2.872, -2.3534, 1, -2.922, -2.7534, 1, -2.872, -2.3534, 0.666666, -2.872, -2.3534, 0.666666, -2.922, -2.7534, 1, -2.922, -2.7534, 0.666666, -2.872, -2.7534, 0.666666, -2.922 )
 
+[sub_resource type="SpatialMaterial" id=99]
+albedo_texture = ExtResource( 49 )
+
 [sub_resource type="ConvexPolygonShape" id=40]
 points = PoolVector3Array( -2.92819, 0, -2.922, -2.7534, 0, -2.922, -2.92819, 0, -2.872, -2.92819, 1, -2.922, -2.7534, 0, -2.872, -2.7534, 1, -2.922, -2.92819, 1, -2.872, -2.7534, 1, -2.872 )
+
+[sub_resource type="SpatialMaterial" id=100]
+albedo_texture = ExtResource( 49 )
 
 [sub_resource type="ConvexPolygonShape" id=41]
 points = PoolVector3Array( -0.239626, 1, -2.872, -0.239626, 1, -2.922, -0.639587, 1, -2.872, -0.239626, 0.666666, -2.872, -0.239626, 0.666666, -2.922, -0.639587, 1, -2.922, -0.639587, 0.666666, -2.872, -0.639587, 0.666666, -2.922 )
 
+[sub_resource type="SpatialMaterial" id=101]
+albedo_texture = ExtResource( 49 )
+
 [sub_resource type="ConvexPolygonShape" id=42]
 points = PoolVector3Array( -0.639587, 1, -2.872, -0.639587, 0, -2.872, -0.639587, 1, -2.922, -2.3534, 1, -2.872, -0.639587, 0, -2.922, -2.3534, 0, -2.872, -2.3534, 1, -2.922, -2.3534, 0, -2.922 )
+
+[sub_resource type="SpatialMaterial" id=102]
+albedo_texture = ExtResource( 49 )
 
 [sub_resource type="ConvexPolygonShape" id=15]
 points = PoolVector3Array( -0.928186, 1, -0.922003, -0.928186, 1, -0.972003, -2.92819, 1, -0.922003, -0.928186, 0, -0.922003, -0.928186, 0, -0.972003, -2.92819, 1, -0.972003, -2.92819, 0, -0.922003, -2.92819, 0, -0.972003 )
 
+[sub_resource type="SpatialMaterial" id=103]
+albedo_texture = ExtResource( 49 )
+
 [sub_resource type="ConvexPolygonShape" id=21]
 points = PoolVector3Array( -0.609069, 1, 1.078, -0.609069, 0, 1.078, -0.609069, 1, 1.028, -2.92819, 1, 1.078, -0.609069, 0, 1.028, -2.92819, 0, 1.078, -2.87824, 1, 1.028, -2.87824, 0, 1.028 )
+
+[sub_resource type="SpatialMaterial" id=104]
+albedo_texture = ExtResource( 49 )
 
 [sub_resource type="ConvexPolygonShape" id=19]
 points = PoolVector3Array( -0.209108, 1, 1.078, -0.209108, 1, 1.028, -0.609069, 1, 1.078, -0.209108, 0.666666, 1.078, -0.209108, 0.666666, 1.028, -0.609069, 1, 1.028, -0.609069, 0.666666, 1.078, -0.609069, 0.666666, 1.028 )
 
+[sub_resource type="SpatialMaterial" id=105]
+albedo_texture = ExtResource( 49 )
+
 [sub_resource type="ConvexPolygonShape" id=20]
 points = PoolVector3Array( 1.07181, 1, 1.078, 1.07181, 1, 1.028, -0.209069, 1, 1.078, 1.07181, 0, 1.078, 1.07181, 0, 1.028, -0.209069, 1, 1.028, -0.209069, 0, 1.078, -0.209069, 0, 1.028 )
+
+[sub_resource type="SpatialMaterial" id=106]
+albedo_texture = ExtResource( 49 )
 
 [sub_resource type="ConvexPolygonShape" id=43]
 points = PoolVector3Array( -0.878185, 1, 1.07792, -0.878185, 1, 0.277997, -0.928185, 1, 1.07792, -0.878185, 0, 1.07792, -0.928185, 1, 0.277997, -0.878185, 0, 0.277997, -0.928185, 0, 1.07792, -0.928185, 0, 0.277997 )
 
+[sub_resource type="SpatialMaterial" id=107]
+albedo_texture = ExtResource( 49 )
+
 [sub_resource type="ConvexPolygonShape" id=44]
 points = PoolVector3Array( -0.928185, 0.666666, -0.122003, -0.878185, 0.666666, -0.122003, -0.928185, 0.666666, 0.277958, -0.928185, 1, -0.122003, -0.878185, 1, -0.122003, -0.878185, 0.666666, 0.277958, -0.928185, 1, 0.277958, -0.878185, 1, 0.277958 )
+
+[sub_resource type="SpatialMaterial" id=108]
+albedo_texture = ExtResource( 49 )
 
 [sub_resource type="ConvexPolygonShape" id=45]
 points = PoolVector3Array( -0.928185, 0, -1.722, -0.928185, 1, -1.722, -0.878185, 0, -1.722, -0.928185, 0, -0.122003, -0.878185, 1, -1.722, -0.928185, 1, -0.122003, -0.878185, 0, -0.122003, -0.878185, 1, -0.122003 )
 
+[sub_resource type="SpatialMaterial" id=109]
+albedo_texture = ExtResource( 49 )
+
 [sub_resource type="ConvexPolygonShape" id=46]
 points = PoolVector3Array( -0.928185, 0.666666, -0.122003, -0.878185, 0.666666, -0.122003, -0.928185, 0.666666, 0.277958, -0.928185, 1, -0.122003, -0.878185, 1, -0.122003, -0.878185, 0.666666, 0.277958, -0.928185, 1, 0.277958, -0.878185, 1, 0.277958 )
+
+[sub_resource type="SpatialMaterial" id=110]
+albedo_texture = ExtResource( 49 )
 
 [sub_resource type="ConvexPolygonShape" id=47]
 points = PoolVector3Array( -0.878185, 1, -2.12208, -0.878185, 1, -2.922, -0.928185, 1, -2.12208, -0.878185, 0, -2.12208, -0.928185, 1, -2.922, -0.878185, 0, -2.922, -0.928185, 0, -2.12208, -0.928185, 0, -2.922 )
 
+[sub_resource type="SpatialMaterial" id=111]
+albedo_texture = ExtResource( 49 )
+
 [sub_resource type="ConvexPolygonShape" id=18]
 points = PoolVector3Array( 1.02181, 0, -2.922, 1.02181, 1, -2.922, 1.07181, 0, -2.922, 1.02181, 0, 1.078, 1.07181, 1, -2.922, 1.02181, 1, 1.078, 1.07181, 0, 1.078, 1.07181, 1, 1.078 )
+
+[sub_resource type="SpatialMaterial" id=112]
+albedo_texture = ExtResource( 50 )
+
+[sub_resource type="SpatialMaterial" id=113]
+albedo_texture = ExtResource( 50 )
 
 [sub_resource type="ConvexPolygonShape" id=32]
 points = PoolVector3Array( -0.305064, -3.1e-05, -0.00974934, -0.290401, 0.336002, -0.0215671, -0.288459, 0.336002, -0.0229139, -0.28613, 0.336002, -0.0241329, -0.283472, 0.336002, -0.0252083, -0.280515, 0.336002, -0.0261132, -0.27732, 0.336002, -0.0268425, -0.273945, 0.336002, -0.0273748, -0.270451, 0.336002, -0.0277049, -0.266867, 0.336002, -0.027822, 3.09944e-05, -3.1e-05, -0.00974934, -0.305064, -3.1e-05, 0.00901003, -0.305064, 0.623794, -0.00974934, -0.290401, 0.345283, -0.0215671, -0.288459, 0.345283, -0.0229139, -0.28613, 0.345283, -0.0241329, -0.283472, 0.345283, -0.0252083, -0.280515, 0.345283, -0.0261132, -0.27732, 0.345283, -0.0268425, -0.273945, 0.345283, -0.0273748, -0.270451, 0.345283, -0.0277049, -0.266867, 0.345283, -0.027822, -0.24202, 0.336002, -0.027822, 3.09944e-05, -3.1e-05, 0.00901003, 3.09944e-05, 0.623794, -0.00974934, -0.266867, 0.336002, 0.026561, -0.270451, 0.336002, 0.0264386, -0.273945, 0.336002, 0.0261085, -0.27732, 0.336002, 0.0255762, -0.280515, 0.336002, 0.0248469, -0.283472, 0.336002, 0.0239419, -0.28613, 0.336002, 0.0228666, -0.288459, 0.336002, 0.0216476, -0.290401, 0.336002, 0.0203008, -0.305064, 0.623794, 0.00901003, -0.24202, 0.345283, -0.027822, 3.09944e-05, 0.623794, 0.00901003, -0.24202, 0.336002, 0.026561, -0.266867, 0.345283, 0.026561, -0.270451, 0.345283, 0.0264386, -0.273945, 0.345283, 0.0261085, -0.27732, 0.345283, 0.0255762, -0.280515, 0.345283, 0.0248469, -0.283472, 0.345283, 0.0239419, -0.28613, 0.345283, 0.0228666, -0.288459, 0.345283, 0.0216476, -0.290401, 0.345283, 0.0203008, -0.24202, 0.345283, 0.026561 )
@@ -207,6 +332,12 @@ tracks/0/keys = {
 "values": [ Vector3( 0, 0, 0 ), Vector3( -0.001, -90, 0 ) ]
 }
 
+[sub_resource type="SpatialMaterial" id=114]
+albedo_texture = ExtResource( 50 )
+
+[sub_resource type="SpatialMaterial" id=115]
+albedo_texture = ExtResource( 50 )
+
 [sub_resource type="ConvexPolygonShape" id=35]
 points = PoolVector3Array( -0.305064, -3.1e-05, -0.00974934, -0.290401, 0.336002, -0.0215671, -0.288459, 0.336002, -0.0229139, -0.28613, 0.336002, -0.0241329, -0.283472, 0.336002, -0.0252083, -0.280515, 0.336002, -0.0261132, -0.27732, 0.336002, -0.0268425, -0.273945, 0.336002, -0.0273748, -0.270451, 0.336002, -0.0277049, -0.266867, 0.336002, -0.027822, 3.09944e-05, -3.1e-05, -0.00974934, -0.305064, -3.1e-05, 0.00901003, -0.305064, 0.623794, -0.00974934, -0.290401, 0.345283, -0.0215671, -0.288459, 0.345283, -0.0229139, -0.28613, 0.345283, -0.0241329, -0.283472, 0.345283, -0.0252083, -0.280515, 0.345283, -0.0261132, -0.27732, 0.345283, -0.0268425, -0.273945, 0.345283, -0.0273748, -0.270451, 0.345283, -0.0277049, -0.266867, 0.345283, -0.027822, -0.24202, 0.336002, -0.027822, 3.09944e-05, -3.1e-05, 0.00901003, 3.09944e-05, 0.623794, -0.00974934, -0.266867, 0.336002, 0.026561, -0.270451, 0.336002, 0.0264386, -0.273945, 0.336002, 0.0261085, -0.27732, 0.336002, 0.0255762, -0.280515, 0.336002, 0.0248469, -0.283472, 0.336002, 0.0239419, -0.28613, 0.336002, 0.0228666, -0.288459, 0.336002, 0.0216476, -0.290401, 0.336002, 0.0203008, -0.305064, 0.623794, 0.00901003, -0.24202, 0.345283, -0.027822, 3.09944e-05, 0.623794, 0.00901003, -0.24202, 0.336002, 0.026561, -0.266867, 0.345283, 0.026561, -0.270451, 0.345283, 0.0264386, -0.273945, 0.345283, 0.0261085, -0.27732, 0.345283, 0.0255762, -0.280515, 0.345283, 0.0248469, -0.283472, 0.345283, 0.0239419, -0.28613, 0.345283, 0.0228666, -0.288459, 0.345283, 0.0216476, -0.290401, 0.345283, 0.0203008, -0.24202, 0.345283, 0.026561 )
 
@@ -241,6 +372,12 @@ tracks/0/keys = {
 "update": 0,
 "values": [ Vector3( 0, 0, 0 ), Vector3( 0, 106.494, 0 ) ]
 }
+
+[sub_resource type="SpatialMaterial" id=116]
+albedo_texture = ExtResource( 50 )
+
+[sub_resource type="SpatialMaterial" id=117]
+albedo_texture = ExtResource( 50 )
 
 [sub_resource type="ConvexPolygonShape" id=53]
 points = PoolVector3Array( -0.305064, -3.1e-05, -0.00974934, -0.290401, 0.336002, -0.0215671, -0.288459, 0.336002, -0.0229139, -0.28613, 0.336002, -0.0241329, -0.283472, 0.336002, -0.0252083, -0.280515, 0.336002, -0.0261132, -0.27732, 0.336002, -0.0268425, -0.273945, 0.336002, -0.0273748, -0.270451, 0.336002, -0.0277049, -0.266867, 0.336002, -0.027822, 3.09944e-05, -3.1e-05, -0.00974934, -0.305064, -3.1e-05, 0.00901003, -0.305064, 0.623794, -0.00974934, -0.290401, 0.345283, -0.0215671, -0.288459, 0.345283, -0.0229139, -0.28613, 0.345283, -0.0241329, -0.283472, 0.345283, -0.0252083, -0.280515, 0.345283, -0.0261132, -0.27732, 0.345283, -0.0268425, -0.273945, 0.345283, -0.0273748, -0.270451, 0.345283, -0.0277049, -0.266867, 0.345283, -0.027822, -0.24202, 0.336002, -0.027822, 3.09944e-05, -3.1e-05, 0.00901003, 3.09944e-05, 0.623794, -0.00974934, -0.266867, 0.336002, 0.026561, -0.270451, 0.336002, 0.0264386, -0.273945, 0.336002, 0.0261085, -0.27732, 0.336002, 0.0255762, -0.280515, 0.336002, 0.0248469, -0.283472, 0.336002, 0.0239419, -0.28613, 0.336002, 0.0228666, -0.288459, 0.336002, 0.0216476, -0.290401, 0.336002, 0.0203008, -0.305064, 0.623794, 0.00901003, -0.24202, 0.345283, -0.027822, 3.09944e-05, 0.623794, 0.00901003, -0.24202, 0.336002, 0.026561, -0.266867, 0.345283, 0.026561, -0.270451, 0.345283, 0.0264386, -0.273945, 0.345283, 0.0261085, -0.27732, 0.345283, 0.0255762, -0.280515, 0.345283, 0.0248469, -0.283472, 0.345283, 0.0239419, -0.28613, 0.345283, 0.0228666, -0.288459, 0.345283, 0.0216476, -0.290401, 0.345283, 0.0203008, -0.24202, 0.345283, 0.026561 )
@@ -278,6 +415,12 @@ tracks/0/keys = {
 "values": [ Vector3( 0, 0, 0 ), Vector3( 0, 90, 0 ) ]
 }
 
+[sub_resource type="SpatialMaterial" id=118]
+albedo_texture = ExtResource( 50 )
+
+[sub_resource type="SpatialMaterial" id=119]
+albedo_texture = ExtResource( 50 )
+
 [sub_resource type="ConvexPolygonShape" id=57]
 points = PoolVector3Array( -0.305064, -3.1e-05, -0.00974934, -0.290401, 0.336002, -0.0215671, -0.288459, 0.336002, -0.0229139, -0.28613, 0.336002, -0.0241329, -0.283472, 0.336002, -0.0252083, -0.280515, 0.336002, -0.0261132, -0.27732, 0.336002, -0.0268425, -0.273945, 0.336002, -0.0273748, -0.270451, 0.336002, -0.0277049, -0.266867, 0.336002, -0.027822, 3.09944e-05, -3.1e-05, -0.00974934, -0.305064, -3.1e-05, 0.00901003, -0.305064, 0.623794, -0.00974934, -0.290401, 0.345283, -0.0215671, -0.288459, 0.345283, -0.0229139, -0.28613, 0.345283, -0.0241329, -0.283472, 0.345283, -0.0252083, -0.280515, 0.345283, -0.0261132, -0.27732, 0.345283, -0.0268425, -0.273945, 0.345283, -0.0273748, -0.270451, 0.345283, -0.0277049, -0.266867, 0.345283, -0.027822, -0.24202, 0.336002, -0.027822, 3.09944e-05, -3.1e-05, 0.00901003, 3.09944e-05, 0.623794, -0.00974934, -0.266867, 0.336002, 0.026561, -0.270451, 0.336002, 0.0264386, -0.273945, 0.336002, 0.0261085, -0.27732, 0.336002, 0.0255762, -0.280515, 0.336002, 0.0248469, -0.283472, 0.336002, 0.0239419, -0.28613, 0.336002, 0.0228666, -0.288459, 0.336002, 0.0216476, -0.290401, 0.336002, 0.0203008, -0.305064, 0.623794, 0.00901003, -0.24202, 0.345283, -0.027822, 3.09944e-05, 0.623794, 0.00901003, -0.24202, 0.336002, 0.026561, -0.266867, 0.345283, 0.026561, -0.270451, 0.345283, 0.0264386, -0.273945, 0.345283, 0.0261085, -0.27732, 0.345283, 0.0255762, -0.280515, 0.345283, 0.0248469, -0.283472, 0.345283, 0.0239419, -0.28613, 0.345283, 0.0228666, -0.288459, 0.345283, 0.0216476, -0.290401, 0.345283, 0.0203008, -0.24202, 0.345283, 0.026561 )
 
@@ -313,6 +456,12 @@ tracks/0/keys = {
 "update": 0,
 "values": [ Vector3( 0, 0, 0 ), Vector3( 0, 90, 0 ) ]
 }
+
+[sub_resource type="SpatialMaterial" id=120]
+albedo_texture = ExtResource( 50 )
+
+[sub_resource type="SpatialMaterial" id=121]
+albedo_texture = ExtResource( 50 )
 
 [sub_resource type="ConvexPolygonShape" id=61]
 points = PoolVector3Array( -0.305064, -3.1e-05, -0.00974934, -0.290401, 0.336002, -0.0215671, -0.288459, 0.336002, -0.0229139, -0.28613, 0.336002, -0.0241329, -0.283472, 0.336002, -0.0252083, -0.280515, 0.336002, -0.0261132, -0.27732, 0.336002, -0.0268425, -0.273945, 0.336002, -0.0273748, -0.270451, 0.336002, -0.0277049, -0.266867, 0.336002, -0.027822, 3.09944e-05, -3.1e-05, -0.00974934, -0.305064, -3.1e-05, 0.00901003, -0.305064, 0.623794, -0.00974934, -0.290401, 0.345283, -0.0215671, -0.288459, 0.345283, -0.0229139, -0.28613, 0.345283, -0.0241329, -0.283472, 0.345283, -0.0252083, -0.280515, 0.345283, -0.0261132, -0.27732, 0.345283, -0.0268425, -0.273945, 0.345283, -0.0273748, -0.270451, 0.345283, -0.0277049, -0.266867, 0.345283, -0.027822, -0.24202, 0.336002, -0.027822, 3.09944e-05, -3.1e-05, 0.00901003, 3.09944e-05, 0.623794, -0.00974934, -0.266867, 0.336002, 0.026561, -0.270451, 0.336002, 0.0264386, -0.273945, 0.336002, 0.0261085, -0.27732, 0.336002, 0.0255762, -0.280515, 0.336002, 0.0248469, -0.283472, 0.336002, 0.0239419, -0.28613, 0.336002, 0.0228666, -0.288459, 0.336002, 0.0216476, -0.290401, 0.336002, 0.0203008, -0.305064, 0.623794, 0.00901003, -0.24202, 0.345283, -0.027822, 3.09944e-05, 0.623794, 0.00901003, -0.24202, 0.336002, 0.026561, -0.266867, 0.345283, 0.026561, -0.270451, 0.345283, 0.0264386, -0.273945, 0.345283, 0.0261085, -0.27732, 0.345283, 0.0255762, -0.280515, 0.345283, 0.0248469, -0.283472, 0.345283, 0.0239419, -0.28613, 0.345283, 0.0228666, -0.288459, 0.345283, 0.0216476, -0.290401, 0.345283, 0.0203008, -0.24202, 0.345283, 0.026561 )
@@ -350,6 +499,12 @@ tracks/0/keys = {
 "values": [ Vector3( 0, 0, 0 ), Vector3( 0, -90, 0 ) ]
 }
 
+[sub_resource type="SpatialMaterial" id=122]
+albedo_texture = ExtResource( 50 )
+
+[sub_resource type="SpatialMaterial" id=123]
+albedo_texture = ExtResource( 50 )
+
 [sub_resource type="ConvexPolygonShape" id=65]
 points = PoolVector3Array( -0.305064, -3.1e-05, -0.00974934, -0.290401, 0.336002, -0.0215671, -0.288459, 0.336002, -0.0229139, -0.28613, 0.336002, -0.0241329, -0.283472, 0.336002, -0.0252083, -0.280515, 0.336002, -0.0261132, -0.27732, 0.336002, -0.0268425, -0.273945, 0.336002, -0.0273748, -0.270451, 0.336002, -0.0277049, -0.266867, 0.336002, -0.027822, 3.09944e-05, -3.1e-05, -0.00974934, -0.305064, -3.1e-05, 0.00901003, -0.305064, 0.623794, -0.00974934, -0.290401, 0.345283, -0.0215671, -0.288459, 0.345283, -0.0229139, -0.28613, 0.345283, -0.0241329, -0.283472, 0.345283, -0.0252083, -0.280515, 0.345283, -0.0261132, -0.27732, 0.345283, -0.0268425, -0.273945, 0.345283, -0.0273748, -0.270451, 0.345283, -0.0277049, -0.266867, 0.345283, -0.027822, -0.24202, 0.336002, -0.027822, 3.09944e-05, -3.1e-05, 0.00901003, 3.09944e-05, 0.623794, -0.00974934, -0.266867, 0.336002, 0.026561, -0.270451, 0.336002, 0.0264386, -0.273945, 0.336002, 0.0261085, -0.27732, 0.336002, 0.0255762, -0.280515, 0.336002, 0.0248469, -0.283472, 0.336002, 0.0239419, -0.28613, 0.336002, 0.0228666, -0.288459, 0.336002, 0.0216476, -0.290401, 0.336002, 0.0203008, -0.305064, 0.623794, 0.00901003, -0.24202, 0.345283, -0.027822, 3.09944e-05, 0.623794, 0.00901003, -0.24202, 0.336002, 0.026561, -0.266867, 0.345283, 0.026561, -0.270451, 0.345283, 0.0264386, -0.273945, 0.345283, 0.0261085, -0.27732, 0.345283, 0.0255762, -0.280515, 0.345283, 0.0248469, -0.283472, 0.345283, 0.0239419, -0.28613, 0.345283, 0.0228666, -0.288459, 0.345283, 0.0216476, -0.290401, 0.345283, 0.0203008, -0.24202, 0.345283, 0.026561 )
 
@@ -385,6 +540,12 @@ tracks/0/keys = {
 "update": 0,
 "values": [ Vector3( 0, 0, 0 ), Vector3( 0, -90, 0 ) ]
 }
+
+[sub_resource type="SpatialMaterial" id=124]
+albedo_texture = ExtResource( 50 )
+
+[sub_resource type="SpatialMaterial" id=125]
+albedo_texture = ExtResource( 50 )
 
 [sub_resource type="ConvexPolygonShape" id=69]
 points = PoolVector3Array( -0.305064, -3.1e-05, -0.00974934, -0.290401, 0.336002, -0.0215671, -0.288459, 0.336002, -0.0229139, -0.28613, 0.336002, -0.0241329, -0.283472, 0.336002, -0.0252083, -0.280515, 0.336002, -0.0261132, -0.27732, 0.336002, -0.0268425, -0.273945, 0.336002, -0.0273748, -0.270451, 0.336002, -0.0277049, -0.266867, 0.336002, -0.027822, 3.09944e-05, -3.1e-05, -0.00974934, -0.305064, -3.1e-05, 0.00901003, -0.305064, 0.623794, -0.00974934, -0.290401, 0.345283, -0.0215671, -0.288459, 0.345283, -0.0229139, -0.28613, 0.345283, -0.0241329, -0.283472, 0.345283, -0.0252083, -0.280515, 0.345283, -0.0261132, -0.27732, 0.345283, -0.0268425, -0.273945, 0.345283, -0.0273748, -0.270451, 0.345283, -0.0277049, -0.266867, 0.345283, -0.027822, -0.24202, 0.336002, -0.027822, 3.09944e-05, -3.1e-05, 0.00901003, 3.09944e-05, 0.623794, -0.00974934, -0.266867, 0.336002, 0.026561, -0.270451, 0.336002, 0.0264386, -0.273945, 0.336002, 0.0261085, -0.27732, 0.336002, 0.0255762, -0.280515, 0.336002, 0.0248469, -0.283472, 0.336002, 0.0239419, -0.28613, 0.336002, 0.0228666, -0.288459, 0.336002, 0.0216476, -0.290401, 0.336002, 0.0203008, -0.305064, 0.623794, 0.00901003, -0.24202, 0.345283, -0.027822, 3.09944e-05, 0.623794, 0.00901003, -0.24202, 0.336002, 0.026561, -0.266867, 0.345283, 0.026561, -0.270451, 0.345283, 0.0264386, -0.273945, 0.345283, 0.0261085, -0.27732, 0.345283, 0.0255762, -0.280515, 0.345283, 0.0248469, -0.283472, 0.345283, 0.0239419, -0.28613, 0.345283, 0.0228666, -0.288459, 0.345283, 0.0216476, -0.290401, 0.345283, 0.0203008, -0.24202, 0.345283, 0.026561 )
@@ -422,6 +583,27 @@ tracks/0/keys = {
 "values": [ Vector3( 0, 0, 0 ), Vector3( 0, 90, 0 ) ]
 }
 
+[sub_resource type="SpatialMaterial" id=126]
+albedo_texture = ExtResource( 48 )
+
+[sub_resource type="SpatialMaterial" id=129]
+albedo_texture = ExtResource( 58 )
+
+[sub_resource type="ConvexPolygonShape" id=130]
+
+[sub_resource type="SpatialMaterial" id=133]
+albedo_texture = ExtResource( 58 )
+
+[sub_resource type="BoxShape" id=134]
+
+[sub_resource type="PanoramaSky" id=127]
+panorama = ExtResource( 51 )
+
+[sub_resource type="Environment" id=128]
+background_sky = SubResource( 127 )
+background_color = Color( 0.027451, 0.027451, 0.145098, 1 )
+background_energy = 0.83
+
 [node name="Game" type="Spatial"]
 script = ExtResource( 25 )
 
@@ -430,6 +612,7 @@ transform = Transform( 0.223, 0, 0, 0, 0.247, 0, 0, 0, 0.3, -0.413478, 0.0171259
 
 [node name="wall1_1" type="MeshInstance" parent="."]
 mesh = ExtResource( 17 )
+material/0 = SubResource( 76 )
 
 [node name="StaticBody" type="StaticBody" parent="wall1_1"]
 
@@ -438,6 +621,7 @@ shape = SubResource( 73 )
 
 [node name="wall1_2" type="MeshInstance" parent="."]
 mesh = ExtResource( 47 )
+material/0 = SubResource( 77 )
 
 [node name="StaticBody" type="StaticBody" parent="wall1_2"]
 
@@ -446,6 +630,7 @@ shape = SubResource( 74 )
 
 [node name="wall1_3" type="MeshInstance" parent="."]
 mesh = ExtResource( 46 )
+material/0 = SubResource( 78 )
 
 [node name="StaticBody" type="StaticBody" parent="wall1_3"]
 
@@ -454,6 +639,7 @@ shape = SubResource( 75 )
 
 [node name="wall2" type="MeshInstance" parent="."]
 mesh = ExtResource( 16 )
+material/0 = SubResource( 79 )
 
 [node name="StaticBody" type="StaticBody" parent="wall2"]
 
@@ -462,6 +648,7 @@ shape = SubResource( 2 )
 
 [node name="wall3" type="MeshInstance" parent="."]
 mesh = ExtResource( 7 )
+material/0 = SubResource( 80 )
 
 [node name="StaticBody" type="StaticBody" parent="wall3"]
 
@@ -470,6 +657,7 @@ shape = SubResource( 3 )
 
 [node name="wall4" type="MeshInstance" parent="."]
 mesh = ExtResource( 4 )
+material/0 = SubResource( 81 )
 
 [node name="StaticBody" type="StaticBody" parent="wall4"]
 
@@ -478,6 +666,7 @@ shape = SubResource( 4 )
 
 [node name="wall5" type="MeshInstance" parent="."]
 mesh = ExtResource( 10 )
+material/0 = SubResource( 82 )
 
 [node name="StaticBody" type="StaticBody" parent="wall5"]
 
@@ -486,6 +675,7 @@ shape = SubResource( 5 )
 
 [node name="wall6" type="MeshInstance" parent="."]
 mesh = ExtResource( 19 )
+material/0 = SubResource( 83 )
 
 [node name="StaticBody" type="StaticBody" parent="wall6"]
 
@@ -494,6 +684,7 @@ shape = SubResource( 6 )
 
 [node name="wall7" type="MeshInstance" parent="."]
 mesh = ExtResource( 11 )
+material/0 = SubResource( 84 )
 
 [node name="StaticBody" type="StaticBody" parent="wall7"]
 
@@ -502,6 +693,7 @@ shape = SubResource( 7 )
 
 [node name="wall8" type="MeshInstance" parent="."]
 mesh = ExtResource( 6 )
+material/0 = SubResource( 85 )
 
 [node name="StaticBody" type="StaticBody" parent="wall8"]
 
@@ -510,6 +702,7 @@ shape = SubResource( 8 )
 
 [node name="wall9" type="MeshInstance" parent="."]
 mesh = ExtResource( 13 )
+material/0 = SubResource( 86 )
 
 [node name="StaticBody" type="StaticBody" parent="wall9"]
 
@@ -518,6 +711,7 @@ shape = SubResource( 9 )
 
 [node name="wall10" type="MeshInstance" parent="."]
 mesh = ExtResource( 9 )
+material/0 = SubResource( 87 )
 
 [node name="StaticBody" type="StaticBody" parent="wall10"]
 
@@ -526,6 +720,7 @@ shape = SubResource( 10 )
 
 [node name="wall11_1" type="MeshInstance" parent="."]
 mesh = ExtResource( 12 )
+material/0 = SubResource( 88 )
 
 [node name="StaticBody" type="StaticBody" parent="wall11_1"]
 
@@ -534,6 +729,7 @@ shape = SubResource( 29 )
 
 [node name="wall11_2" type="MeshInstance" parent="."]
 mesh = ExtResource( 27 )
+material/0 = SubResource( 89 )
 
 [node name="StaticBody" type="StaticBody" parent="wall11_2"]
 
@@ -542,6 +738,7 @@ shape = SubResource( 30 )
 
 [node name="wall11_3" type="MeshInstance" parent="."]
 mesh = ExtResource( 26 )
+material/0 = SubResource( 90 )
 
 [node name="StaticBody" type="StaticBody" parent="wall11_3"]
 
@@ -550,6 +747,7 @@ shape = SubResource( 31 )
 
 [node name="wall12_1" type="MeshInstance" parent="."]
 mesh = ExtResource( 15 )
+material/0 = SubResource( 91 )
 
 [node name="StaticBody" type="StaticBody" parent="wall12_1"]
 
@@ -558,6 +756,7 @@ shape = SubResource( 48 )
 
 [node name="wall12_2" type="MeshInstance" parent="."]
 mesh = ExtResource( 39 )
+material/0 = SubResource( 92 )
 
 [node name="StaticBody" type="StaticBody" parent="wall12_2"]
 
@@ -566,6 +765,7 @@ shape = SubResource( 49 )
 
 [node name="wall12_3" type="MeshInstance" parent="."]
 mesh = ExtResource( 38 )
+material/0 = SubResource( 93 )
 
 [node name="StaticBody" type="StaticBody" parent="wall12_3"]
 
@@ -574,6 +774,7 @@ shape = SubResource( 50 )
 
 [node name="wall12_4" type="MeshInstance" parent="."]
 mesh = ExtResource( 36 )
+material/0 = SubResource( 94 )
 
 [node name="StaticBody" type="StaticBody" parent="wall12_4"]
 
@@ -582,6 +783,7 @@ shape = SubResource( 51 )
 
 [node name="wall12_5" type="MeshInstance" parent="."]
 mesh = ExtResource( 37 )
+material/0 = SubResource( 95 )
 
 [node name="StaticBody" type="StaticBody" parent="wall12_5"]
 
@@ -590,6 +792,7 @@ shape = SubResource( 52 )
 
 [node name="wall13" type="MeshInstance" parent="."]
 mesh = ExtResource( 8 )
+material/0 = SubResource( 96 )
 
 [node name="StaticBody" type="StaticBody" parent="wall13"]
 
@@ -598,6 +801,7 @@ shape = SubResource( 13 )
 
 [node name="wall14_1" type="MeshInstance" parent="."]
 mesh = ExtResource( 2 )
+material/0 = SubResource( 97 )
 
 [node name="StaticBody" type="StaticBody" parent="wall14_1"]
 
@@ -606,6 +810,7 @@ shape = SubResource( 38 )
 
 [node name="wall14_2" type="MeshInstance" parent="."]
 mesh = ExtResource( 29 )
+material/0 = SubResource( 98 )
 
 [node name="StaticBody" type="StaticBody" parent="wall14_2"]
 
@@ -614,6 +819,7 @@ shape = SubResource( 39 )
 
 [node name="wall14_3" type="MeshInstance" parent="."]
 mesh = ExtResource( 30 )
+material/0 = SubResource( 99 )
 
 [node name="StaticBody" type="StaticBody" parent="wall14_3"]
 
@@ -622,6 +828,7 @@ shape = SubResource( 40 )
 
 [node name="wall14_4" type="MeshInstance" parent="."]
 mesh = ExtResource( 32 )
+material/0 = SubResource( 100 )
 
 [node name="StaticBody" type="StaticBody" parent="wall14_4"]
 
@@ -630,6 +837,7 @@ shape = SubResource( 41 )
 
 [node name="wall14_5" type="MeshInstance" parent="."]
 mesh = ExtResource( 31 )
+material/0 = SubResource( 101 )
 
 [node name="StaticBody" type="StaticBody" parent="wall14_5"]
 
@@ -638,6 +846,7 @@ shape = SubResource( 42 )
 
 [node name="wall15" type="MeshInstance" parent="."]
 mesh = ExtResource( 18 )
+material/0 = SubResource( 102 )
 
 [node name="StaticBody" type="StaticBody" parent="wall15"]
 
@@ -646,6 +855,7 @@ shape = SubResource( 15 )
 
 [node name="wall16_1" type="MeshInstance" parent="."]
 mesh = ExtResource( 21 )
+material/0 = SubResource( 103 )
 
 [node name="StaticBody" type="StaticBody" parent="wall16_1"]
 
@@ -654,6 +864,7 @@ shape = SubResource( 21 )
 
 [node name="wall16_2" type="MeshInstance" parent="."]
 mesh = ExtResource( 20 )
+material/0 = SubResource( 104 )
 
 [node name="StaticBody" type="StaticBody" parent="wall16_2"]
 
@@ -662,6 +873,7 @@ shape = SubResource( 19 )
 
 [node name="wall16_3" type="MeshInstance" parent="."]
 mesh = ExtResource( 14 )
+material/0 = SubResource( 105 )
 
 [node name="StaticBody" type="StaticBody" parent="wall16_3"]
 
@@ -671,6 +883,7 @@ shape = SubResource( 20 )
 [node name="wall17_1" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00180948, -0.00917459, 0.00548792 )
 mesh = ExtResource( 5 )
+material/0 = SubResource( 106 )
 
 [node name="StaticBody" type="StaticBody" parent="wall17_1"]
 
@@ -680,6 +893,7 @@ shape = SubResource( 43 )
 [node name="wall17_2" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00180948, -0.00917459, 0.00548792 )
 mesh = ExtResource( 34 )
+material/0 = SubResource( 107 )
 
 [node name="StaticBody" type="StaticBody" parent="wall17_2"]
 
@@ -689,6 +903,7 @@ shape = SubResource( 44 )
 [node name="wall17_3" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00180948, -0.00917459, 0.00548792 )
 mesh = ExtResource( 35 )
+material/0 = SubResource( 108 )
 
 [node name="StaticBody" type="StaticBody" parent="wall17_3"]
 
@@ -698,6 +913,7 @@ shape = SubResource( 45 )
 [node name="wall17_4" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00180948, -0.00917459, -1.99599 )
 mesh = ExtResource( 34 )
+material/0 = SubResource( 109 )
 
 [node name="StaticBody" type="StaticBody" parent="wall17_4"]
 
@@ -707,6 +923,7 @@ shape = SubResource( 46 )
 [node name="wall17_5" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00180948, -0.00917459, 0.00548792 )
 mesh = ExtResource( 33 )
+material/0 = SubResource( 110 )
 
 [node name="StaticBody" type="StaticBody" parent="wall17_5"]
 
@@ -715,6 +932,7 @@ shape = SubResource( 47 )
 
 [node name="wall18" type="MeshInstance" parent="."]
 mesh = ExtResource( 3 )
+material/0 = SubResource( 111 )
 
 [node name="StaticBody" type="StaticBody" parent="wall18"]
 
@@ -727,12 +945,14 @@ script = ExtResource( 22 )
 [node name="MeshInstance" type="MeshInstance" parent="door_1"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.412561, 0, 1.05146 )
 mesh = ExtResource( 24 )
+material/0 = SubResource( 112 )
 
 [node name="hinge" type="Spatial" parent="door_1"]
 transform = Transform( 1, 0, 0, 0, 1, 1.74533e-05, 0, -1.74533e-05, 1, -0.261167, 0, 1.08503 )
 
 [node name="MeshInstance2" type="MeshInstance" parent="door_1/hinge"]
 mesh = ExtResource( 23 )
+material/1 = SubResource( 113 )
 
 [node name="StaticBody" type="StaticBody" parent="door_1/hinge/MeshInstance2"]
 
@@ -760,6 +980,7 @@ script = ExtResource( 28 )
 [node name="MeshInstance" type="MeshInstance" parent="door_2"]
 transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 2.08972, 0, -2.17636 )
 mesh = ExtResource( 24 )
+material/0 = SubResource( 114 )
 
 [node name="hinge" type="Spatial" parent="door_2"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.08704, 0, -2.3324 )
@@ -767,6 +988,7 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.08704, 0, -2.3324 )
 [node name="MeshInstance" type="MeshInstance" parent="door_2/hinge"]
 transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, 0, 0 )
 mesh = ExtResource( 23 )
+material/1 = SubResource( 115 )
 
 [node name="StaticBody" type="StaticBody" parent="door_2/hinge/MeshInstance"]
 
@@ -791,6 +1013,7 @@ script = ExtResource( 40 )
 [node name="MeshInstance" type="MeshInstance" parent="door_3"]
 transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, 0, 0 )
 mesh = ExtResource( 24 )
+material/0 = SubResource( 116 )
 
 [node name="hinge" type="Spatial" parent="door_3"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.152481 )
@@ -798,6 +1021,7 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.152481 )
 [node name="MeshInstance" type="MeshInstance" parent="door_3/hinge"]
 transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, 0, 0 )
 mesh = ExtResource( 23 )
+material/1 = SubResource( 117 )
 
 [node name="StaticBody" type="StaticBody" parent="door_3/hinge/MeshInstance"]
 
@@ -820,6 +1044,7 @@ script = ExtResource( 41 )
 [node name="MeshInstance" type="MeshInstance" parent="door4"]
 transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -0.0039534, 0, 0.201973 )
 mesh = ExtResource( 24 )
+material/0 = SubResource( 118 )
 
 [node name="hinge" type="Spatial" parent="door4"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00427121, 0, 0.0378538 )
@@ -827,6 +1052,7 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00427121, 0, 0.0378538 )
 [node name="MeshInstance" type="MeshInstance" parent="door4/hinge"]
 transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -0.015904, 0.0103036, 0.0114212 )
 mesh = ExtResource( 23 )
+material/1 = SubResource( 119 )
 
 [node name="StaticBody" type="StaticBody" parent="door4/hinge/MeshInstance"]
 
@@ -850,6 +1076,7 @@ script = ExtResource( 42 )
 [node name="MeshInstance" type="MeshInstance" parent="door_5"]
 transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -0.0238863, 0, 0.201508 )
 mesh = ExtResource( 24 )
+material/0 = SubResource( 120 )
 
 [node name="hinge" type="Spatial" parent="door_5"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.000213146, 5.96046e-08, 0.0193938 )
@@ -857,6 +1084,7 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.000213146, 5.96046e-08, 0.01
 [node name="MeshInstance" type="MeshInstance" parent="door_5/hinge"]
 transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -0.00460649, 0, 0.0296544 )
 mesh = ExtResource( 23 )
+material/1 = SubResource( 121 )
 
 [node name="StaticBody" type="StaticBody" parent="door_5/hinge/MeshInstance"]
 
@@ -880,6 +1108,7 @@ script = ExtResource( 43 )
 [node name="MeshInstance" type="MeshInstance" parent="door_6"]
 transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -0.00421298, 0, 0.193936 )
 mesh = ExtResource( 24 )
+material/0 = SubResource( 122 )
 
 [node name="hinge" type="Spatial" parent="door_6"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00660849, 0, 0 )
@@ -887,6 +1116,7 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00660849, 0, 0 )
 [node name="MeshInstance" type="MeshInstance" parent="door_6/hinge"]
 transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0.00634629, 0, 0.0363092 )
 mesh = ExtResource( 23 )
+material/1 = SubResource( 123 )
 
 [node name="StaticBody" type="StaticBody" parent="door_6/hinge/MeshInstance"]
 
@@ -910,12 +1140,14 @@ script = ExtResource( 44 )
 [node name="MeshInstance" type="MeshInstance" parent="door_7"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.205144, 0, 0.0323849 )
 mesh = ExtResource( 24 )
+material/0 = SubResource( 124 )
 
 [node name="hinge" type="Spatial" parent="door_7"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.363108, 0, 0.0293636 )
 
 [node name="MeshInstance" type="MeshInstance" parent="door_7/hinge"]
 mesh = ExtResource( 23 )
+material/1 = SubResource( 125 )
 
 [node name="StaticBody" type="StaticBody" parent="door_7/hinge/MeshInstance"]
 
@@ -934,6 +1166,68 @@ anims/door7 = SubResource( 72 )
 
 [node name="floor" type="MeshInstance" parent="."]
 mesh = ExtResource( 45 )
+material/0 = SubResource( 126 )
+
+[node name="StaticBody" type="StaticBody" parent="floor"]
+
+[node name="CollisionShape" type="CollisionShape" parent="floor/StaticBody"]
+shape = SubResource( 21 )
+
+[node name="ember" type="MeshInstance" parent="."]
+mesh = ExtResource( 52 )
+
+[node name="StaticBody" type="StaticBody" parent="ember"]
+
+[node name="CollisionShape" type="CollisionShape" parent="ember/StaticBody"]
+shape = SubResource( 21 )
+
+[node name="bakmandi" type="MeshInstance" parent="."]
+mesh = ExtResource( 53 )
+material/0 = SubResource( 129 )
+
+[node name="StaticBody" type="StaticBody" parent="bakmandi"]
+
+[node name="CollisionShape" type="CollisionShape" parent="bakmandi/StaticBody"]
+shape = SubResource( 130 )
+
+[node name="gayung" type="MeshInstance" parent="."]
+mesh = ExtResource( 54 )
+
+[node name="StaticBody" type="StaticBody" parent="gayung"]
+
+[node name="CollisionShape" type="CollisionShape" parent="gayung/StaticBody"]
+shape = SubResource( 21 )
+
+[node name="keran" type="MeshInstance" parent="."]
+mesh = ExtResource( 57 )
+
+[node name="StaticBody" type="StaticBody" parent="keran"]
+
+[node name="CollisionShape" type="CollisionShape" parent="keran/StaticBody"]
+shape = SubResource( 21 )
+
+[node name="sabun" type="MeshInstance" parent="."]
+mesh = ExtResource( 56 )
+
+[node name="StaticBody" type="StaticBody" parent="sabun"]
+
+[node name="CollisionShape" type="CollisionShape" parent="sabun/StaticBody"]
+shape = SubResource( 21 )
+
+[node name="toilet" type="MeshInstance" parent="."]
+mesh = ExtResource( 55 )
+material/0 = SubResource( 133 )
+
+[node name="StaticBody" type="StaticBody" parent="toilet"]
+
+[node name="CollisionShape" type="CollisionShape" parent="toilet/StaticBody"]
+shape = SubResource( 134 )
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource( 128 )
+
+[node name="DirectionalLight" type="DirectionalLight" parent="."]
+transform = Transform( 1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 3, 0 )
 
 [connection signal="body_entered" from="door_1/area_door_1" to="." method="_on_area_door_1_body_entered"]
 [connection signal="body_exited" from="door_1/area_door_1" to="." method="_on_area_door_1_body_exited"]

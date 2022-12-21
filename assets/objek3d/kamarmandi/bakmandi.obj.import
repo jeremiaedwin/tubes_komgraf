@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/bakmandi.obj-3e1548a8fc34594c56e6996c1827992b.mesh"
+
+[deps]
+
+files=[ "res://.import/bakmandi.obj-3e1548a8fc34594c56e6996c1827992b.mesh" ]
+
+source_file="res://assets/objek3d/kamarmandi/bakmandi.obj"
+dest_files=[ "res://.import/bakmandi.obj-3e1548a8fc34594c56e6996c1827992b.mesh", "res://.import/bakmandi.obj-3e1548a8fc34594c56e6996c1827992b.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

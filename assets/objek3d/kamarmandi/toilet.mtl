@@ -1,0 +1,22 @@
+# Blender 3.3.1 MTL File: 'Base_rev.blend'
+# www.blender.org
+
+newmtl abu
+Ns 79.421471
+Ka 1.000000 1.000000 1.000000
+Kd 0.270140 0.270140 0.270140
+Ks 0.231818 0.231818 0.231818
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl ceiling
+Ns 3.460207
+Ka 1.000000 1.000000 1.000000
+Ks 0.088235 0.088235 0.088235
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:/TexturesCom_ConcreteBare0440_3_seamless_S.png
