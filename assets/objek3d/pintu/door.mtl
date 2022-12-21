@@ -1,0 +1,22 @@
+# Blender 3.3.1 MTL File: 'Base_rev.blend'
+# www.blender.org
+
+newmtl Door
+Ns 4.648760
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd C:/fine_grained_wood_col_1k.jpg
+
+newmtl Material
+Ns 398.891937
+Ka 0.802632 0.802632 0.802632
+Kd 0.562559 0.512308 0.581463
+Ks 0.486842 0.486842 0.486842
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3

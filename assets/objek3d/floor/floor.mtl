@@ -1,0 +1,13 @@
+# Blender MTL File: 'envireonment.blend'
+# Material Count: 1
+
+newmtl Floor
+Ns 56.250027
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.147059 0.147059 0.147059
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\nvixiii\\Downloads\\textures\\TexturesCom_FloorsMarble0023_S.jpg

@@ -1,0 +1,12 @@
+# Blender 3.3.1 MTL File: 'Base_rev.blend'
+# www.blender.org
+
+newmtl wall
+Ns 8.483380
+Ka 1.000000 1.000000 1.000000
+Ks 0.118421 0.118421 0.118421
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:/TexturesCom_BareConcreteWallTexture_512_seamless.png

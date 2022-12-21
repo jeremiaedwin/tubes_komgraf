@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/wall18.obj-caa34c4b388c993ded50705328f9504f.mesh"
+
+[deps]
+
+files=[ "res://.import/wall18.obj-caa34c4b388c993ded50705328f9504f.mesh" ]
+
+source_file="res://assets/objek3d/wall/wall18.obj"
+dest_files=[ "res://.import/wall18.obj-caa34c4b388c993ded50705328f9504f.mesh", "res://.import/wall18.obj-caa34c4b388c993ded50705328f9504f.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286
